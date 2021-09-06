@@ -4,7 +4,13 @@
 
 ## Quick start
 
-1. Add *"webcampicture"* to your **INSTALLED_APPS** setting like this:
+1. Install using `pip`:
+
+```bash
+pip install django-webcampicture
+```
+
+2. Add *"webcampicture"* to your **INSTALLED_APPS** setting like this:
 
 ```python
 INSTALLED_APPS = [
@@ -13,7 +19,7 @@ INSTALLED_APPS = [
 ]
 ```    
 
-2. Use the field in your models:
+3. Use the field in your models:
 
 ```python
 from django.db import models
@@ -33,7 +39,7 @@ class Child(models.Model):
 
 ```
 
-3. Remember to include in your templates:
+4. Remember to include in your templates:
 
 ```html
 {% load static %}
