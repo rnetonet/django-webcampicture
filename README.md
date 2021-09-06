@@ -33,6 +33,14 @@ class Child(models.Model):
 
 ```
 
+3. Remember to include in your templates:
+
+```html
+{% load static %}
+<link rel="stylesheet" href="{% static "webcampicture/css/webcampicture.css" %}">
+<script src="{% static 'webcampicture/js/webcampicture.js' %}"></script>
+```
+
 ## Demo
 
 ![demo](demo.gif)
