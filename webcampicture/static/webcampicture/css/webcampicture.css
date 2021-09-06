@@ -1,0 +1,37 @@
+@keyframes blink { 
+    50% { border-color: white; } 
+ }
+ 
+ .webcam_camera {
+     position: relative;
+     float: left;
+     border: 1px solid orange; 
+ 
+     max-width: 320px; 
+     max-height: 240px;
+ 
+     margin-right: 1rem;
+ 
+     animation: blink .5s step-end infinite alternate;
+ }
+ 
+ .webcam_camera_icon {
+     position: absolute;
+     bottom: 0.5rem;
+     right: 0.5rem;
+ 
+     width: 32px;
+     height: 32px;
+ }
+ 
+ .webcam_output {
+     display: inline-block;
+     border: 1px solid green; 
+ 
+     width: 320px; 
+     height: 240px;
+     min-width: 320px; 
+     min-height: 240px;
+     max-width: 320px; 
+     max-height: 240px;
+ }
