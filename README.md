@@ -52,3 +52,9 @@ WEBCAM_BASE64_PREFIX = "data:image/png;base64,"
 WEBCAM_CONTENT_TYPE = "image/png"
 WEBCAM_FILENAME_SUFFIX = ".png"
 ```
+
+## Overridable templates
+
+```text
+webcampicture/webcampicture.html
+```
