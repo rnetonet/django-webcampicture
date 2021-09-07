@@ -69,9 +69,6 @@ Webcam.prototype = {
                 self.canvas.width = self.options.width;
                 self.canvas.height = self.options.height;
                 context.drawImage(self.video, 0, 0, self.options.width, self.options.height);
-            } else {
-                context.fillStyle = "#AAA";
-                context.fillRect(0, 0, self.canvas.width, self.canvas.height);
             }
     
             var data = self.canvas.toDataURL('image/png');
