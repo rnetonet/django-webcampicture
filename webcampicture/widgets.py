@@ -13,7 +13,8 @@ class WebcamPictureWidget(Widget):
         # file object
         if value and hasattr(value, "file"):
             file_content = value.file.read()
-            return constants.WEBCAM_BASE64_PREFIX + file_content
+            file_content_base64 = base64.b64encode(file_content)
+            return constants.WEBCAM_BASE64_PREFIX + file_content_base64.decode("utf8")
         # base64 string
         elif value:
             return value
