@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "django-webcampicture"
-version = "0.1.3"
-description = "A Django app to provide a WebcamPictureField, derived from ImageField."
+version = "0.1.4"
+description = "A Django app to provide a WebcamPictureField, derived from FileField."
 authors = ["rnetonet <rneto@rneto.net>"]
 homepage = "https://github.com/rnetonet/django-webcampicture"
 repository = "https://github.com/rnetonet/django-webcampicture"
