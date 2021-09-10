@@ -1,6 +1,6 @@
 # django-webcampicture
 
-**django-webcampicture** is a very simple Django app that provides a specialization of Django's native `FileField`: `WebcamPictureField`, which allows users to save images taken from their webcams, instead of uploading.
+**django-webcampicture** is a very simple Django app that provides a specialization of Django's native `ImageField`: `WebcamPictureField`, which allows users to save images taken from their webcams, instead of uploading.
 
 ## Quick start
 
