@@ -28,8 +28,9 @@ from webcampicture.fields import WebcamPictureField
 class Child(models.Model):
     name = models.CharField("Name", max_length=255)
 
-    # WebcamPictureField takes the same parameters as ImageField, besides the "width" and "height" positional parameters.
-    picture = WebcamPictureField("Picture", width=480, height=36-, upload_to="pictures", blank=True)
+    # WebcamPictureField takes the same parameters as ImageField, 
+    # besides the "width" and "height" positional parameters.
+    picture = WebcamPictureField("Picture", width=480, height=360, upload_to="pictures", blank=True)
 
     # Image URL example...
     @property
