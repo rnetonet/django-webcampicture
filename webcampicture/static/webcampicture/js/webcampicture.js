@@ -47,6 +47,8 @@ Webcam.prototype = {
           self.video.setAttribute("height", self.height);
           self.canvas.setAttribute("width", self.width);
           self.canvas.setAttribute("height", self.height);
+          self.picture_preview.setAttribute("width", self.width);
+          self.picture_preview.setAttribute("height", self.height);
           self.streaming = true;
         }
       },
